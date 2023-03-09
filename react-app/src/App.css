@@ -1,0 +1,49 @@
+@import url("./variables.css");
+
+.App {
+  height: 200vh;
+}
+.switch {
+  margin: 10px auto;
+  width: 350px;
+  text-align: center;
+  height: 30px;
+}
+label {
+  width: 80px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  background: #ebebeb;
+
+  border-radius: 200px;
+  box-shadow: inset 0px 5px 15px rgba(48, 48, 48, 0.4),
+    inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+label:after {
+  content: "";
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 1px;
+  left: 1.5px;
+  background: linear-gradient(180deg, #ffcc89, #d8860b);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.7s;
+}
+input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+input:checked + label {
+  background: #242424;
+}
+input:checked + label::after {
+  background: linear-gradient(180deg, #ebebeb, #b8b8b8);
+  transform: translate(49px);
+}

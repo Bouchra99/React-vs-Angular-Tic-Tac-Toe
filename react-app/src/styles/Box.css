@@ -1,0 +1,23 @@
+.box {
+  border: 2px solid rgb(107, 107, 107);
+  border-radius: 8px;
+  margin: 0 2px;
+  height: 100%;
+  flex: 30%;
+  background-color: transparent;
+}
+.box:hover {
+  transform: scale(1.02);
+  border-color: #d8860b;
+}
+.box-btn {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 80px;
+}
+
+.box-btn:disabled {
+  color: inherit;
+}
