@@ -2,9 +2,12 @@
 
 # dependencies
 /react-app/node_modules
+/angular-app/node_modules
 /.pnp
 .pnp.js
 
+/angular-app/.vscode
+/angular-app/.angular
 
 # testing
 /coverage

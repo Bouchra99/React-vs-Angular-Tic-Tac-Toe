@@ -1,0 +1,38 @@
+.container{
+   width: 100%;
+   height: 100%;
+}
+.main{
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 90%;
+    grid-gap: 1px;
+}
+
+.winner{
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+.winner h3{
+    margin-top: 2px;
+    font-size: 35px;
+}
+.winner button{
+    position: absolute;
+    top : 10px ;
+    right : 2px;
+    padding: 4px 15px;
+    border-radius: 2px;
+    background-color: inherit;
+    color: inherit;
+    font-weight: bold;
+    border : 1px solid #b4b4b4; 
+}
+.winner button:hover{
+    background-color: #d8860b;
+    transform: translateX(-2px);
+    transition-duration: 0.5s;
+}

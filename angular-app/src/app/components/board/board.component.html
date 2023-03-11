@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="main">
+        <app-square  *ngFor = "let val of squares; let i = index" [value] ="val" (handleClick)="playNext(i)"></app-square>
+    </div>
+    <div *ngIf = "winner" class="winner">
+       <h3>{{winner}}</h3>
+       <button (click) = "replay()">replay</button>
+    </div>    
+</div>
+

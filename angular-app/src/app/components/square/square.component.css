@@ -1,0 +1,17 @@
+.square-btn{
+    border: 2px solid red;
+    width: 100%;
+    height: 100% ;
+    border : 2px solid #515151;
+    border-radius: 5px;
+    background-color: inherit;
+    color: inherit;
+    
+    /* font-weight: bold; */
+    font-size: 80px;
+}
+.square-btn:hover{
+    transform: scale(1.02);
+    transition-duration: 0.3s;
+    border-color: #d8860b;
+}
