@@ -1,0 +1,4 @@
+<div class="theme-toggle">
+  <fa-icon *ngIf="!dark" (click) = "toggleTheme()" class="icon moon" [icon]="faMoon"></fa-icon>
+  <fa-icon *ngIf="dark" (click) = "toggleTheme()" class="icon sun" [icon]="faSun"></fa-icon>
+</div>

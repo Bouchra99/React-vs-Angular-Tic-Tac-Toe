@@ -1,0 +1,9 @@
+.light-mode {
+  background: linear-gradient(180deg, #ebebeb, #b8b8b8);
+  color: #242424;
+}
+
+.dark-mode {
+  background: linear-gradient(180deg, #242424, #1b1a1a);
+  color: #b8b8b8;
+}

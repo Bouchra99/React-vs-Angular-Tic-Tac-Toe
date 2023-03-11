@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("variables.css");
 
 :root {
   margin: 0;
@@ -11,7 +11,10 @@ body {
   margin: 10px auto;
   width: 80vh;
   height: 80vh;
-  background: linear-gradient(180deg, #242424, #1b1a1a);
-  color: #b8b8b8;
+  /* background: linear-gradient(180deg, #242424, #1b1a1a); */
+  /* background: linear-gradient(180deg, #ebebeb, #b8b8b8); */
+
+  /* color: #b8b8b8; */
   /* border: 2px solid blue; */
 }
+

@@ -12,6 +12,7 @@
 }
 
 .winner{
+    margin-top: 5px;
     width: 90%;
     text-align: center;
     position: relative;
@@ -19,6 +20,7 @@
 .winner h3{
     margin-top: 2px;
     font-size: 35px;
+    color : #d8860b;
 }
 .winner button{
     position: absolute;
